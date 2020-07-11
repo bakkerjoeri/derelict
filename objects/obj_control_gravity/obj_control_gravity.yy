@@ -2,7 +2,7 @@
     "id": "db2b404a-8228-45c6-b65d-dfd5ce90246c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gravity_control",
+    "name": "obj_control_gravity",
     "eventList": [
         {
             "id": "62d41b9c-fc75-46ed-9bf6-336e96320a19",

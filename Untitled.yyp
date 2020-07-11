@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "139394de-d541-430c-8be1-10f321c308e7",
+            "Value": {
+                "id": "8d0e5c66-7917-4c38-968e-67628fa5b2b9",
+                "resourcePath": "objects\/obj_control_room\/obj_control_room.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "18a9b443-f8ba-4760-8d5a-9775fcec2d24",
             "Value": {
                 "id": "efb04e29-6bc7-4dae-bde9-e1154c2ca96f",
@@ -84,6 +92,14 @@
                 "id": "ba7b92e9-f653-4c76-ab4e-4e342dc63991",
                 "resourcePath": "views\/1a03c88d-30c2-4fbe-baac-091eeaea9a17.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1b2a3591-c7f7-4685-98fa-31d4b34932c6",
+            "Value": {
+                "id": "23e5bd9b-0a7d-4797-957f-151d9c846328",
+                "resourcePath": "sprites\/spr_tiles_hazard\/spr_tiles_hazard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -271,6 +287,14 @@
             }
         },
         {
+            "Key": "83122147-0020-44fd-b67c-028b15d682da",
+            "Value": {
+                "id": "93a3e5f5-7636-4194-b866-d94a49da2306",
+                "resourcePath": "scripts\/scr_player_state_death\/scr_player_state_death.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "84797a44-9358-4798-b0c7-9fec2fd202ef",
             "Value": {
                 "id": "3e05bd93-a138-4bc8-8869-4f9226795669",
@@ -316,6 +340,14 @@
                 "id": "f391f55d-bbf0-4e03-800d-9a2c6b225dc9",
                 "resourcePath": "fonts\/font_pinch\/font_pinch.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "9ce1d2cb-8986-4cde-9a58-df05cabf2261",
+            "Value": {
+                "id": "e2ee5a55-e9f1-4158-a7dd-cb1908cfa536",
+                "resourcePath": "tilesets\/tileset_hazard\/tileset_hazard.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -407,14 +439,6 @@
             }
         },
         {
-            "Key": "d8b2fe1a-df27-4331-b7eb-38d66ce85fdf",
-            "Value": {
-                "id": "1df45cf2-e18a-494f-af45-1531c4a006ee",
-                "resourcePath": "views\/d8b2fe1a-df27-4331-b7eb-38d66ce85fdf.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "d947e4f4-a939-482e-bcae-a483541769ba",
             "Value": {
                 "id": "082f548b-f523-4603-a7b5-11153cfa2b36",
@@ -426,7 +450,7 @@
             "Key": "db2b404a-8228-45c6-b65d-dfd5ce90246c",
             "Value": {
                 "id": "9894a1be-d6f2-41c4-a599-cab8c2089d6d",
-                "resourcePath": "objects\/obj_gravity_control\/obj_gravity_control.yy",
+                "resourcePath": "objects\/obj_control_gravity\/obj_control_gravity.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -471,6 +495,14 @@
             }
         },
         {
+            "Key": "fbdeab9c-3fb4-4560-93ad-fa0fa6a7255d",
+            "Value": {
+                "id": "cdc4c369-0fe6-4069-aea8-3c0fa5181b75",
+                "resourcePath": "scripts\/scr_player_is_colliding\/scr_player_is_colliding.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fdba08f9-989a-47a1-a755-9bc2b3dd2e18",
             "Value": {
                 "id": "b838a033-0d3d-41c5-8087-2bcbb69537a6",
@@ -482,8 +514,10 @@
     "script_order": [
         "df332d00-eeda-4ec5-8eb1-67c10fc46761",
         "63616811-4b2c-4c44-a3ed-ef218a104735",
+        "83122147-0020-44fd-b67c-028b15d682da",
         "2eebe04c-a645-4ec9-b8a4-450e72256ee4",
         "29d6ba40-cbc4-43fd-832a-2059bd2ae587",
+        "fbdeab9c-3fb4-4560-93ad-fa0fa6a7255d",
         "d3f7fb9f-4412-49e6-b550-833315993a2e",
         "8abdabce-6f80-4c20-ad07-4b66743a5f43",
         "5a00b4ea-333c-4fe7-8c6b-14438c7f83f4",

@@ -1,7 +1,7 @@
-if (!powered_on && obj_gravity_control.room_gravity > 0 && !place_meeting(x, y, obj_player)) {
+if (!powered_on && obj_control_gravity.room_gravity > 0 && !place_meeting(x, y, obj_player)) {
 	powered_on = true;
 	image_speed = -1;
-} else if (powered_on && obj_gravity_control.room_gravity == 0) {
+} else if (powered_on && obj_control_gravity.room_gravity == 0) {
 	powered_on = false;
 	image_speed = 1;
 }

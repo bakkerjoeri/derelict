@@ -2,7 +2,7 @@ scr_player_apply_velocity();
 scr_player_horizontal_move();
 
 // Check if the player is in the air
-if (!scr_player_is_bottom_colliding(1)) {
+if (!scr_player_is_bottom_colliding(collision_map, 1)) {
 	state_switch("inAir");
 	exit;
 }
