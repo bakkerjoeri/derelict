@@ -1,10 +1,18 @@
 exit;
 
+if (room_index[0] == undefined)  {
+	exit;
+}
+
 draw_text(
 	camera_get_view_x(view_camera[0]) + 18,
 	camera_get_view_y(view_camera[0]) + 60,
 	"Room " + string(room_index[0]) + "-" + string(room_index[1])
 );
+
+if (spawn_point[0] == undefined) {
+	exit;
+}
 
 draw_text(
 	camera_get_view_x(view_camera[0]) + 18,

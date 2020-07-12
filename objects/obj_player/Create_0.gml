@@ -7,8 +7,8 @@ state_init("inAir");
 horizontal_velocity = 0;
 vertical_velocity = 0;
 
-max_vertical_velocity = 4;
-max_horizontal_velocity = 2;
+max_vertical_velocity = 3;
+max_horizontal_velocity = 1.6;
 walking_acceleration = 0.4;
 walking_decceleration = 0.7;
 thrust_acceleration = 0.1;

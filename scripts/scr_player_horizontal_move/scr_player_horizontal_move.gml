@@ -2,15 +2,7 @@
 var horizontal_acceleration = walking_acceleration;
 var horizontal_decceleration = walking_decceleration;
 
-if (state_name == "inAir") {
-	horizontal_acceleration = thrust_acceleration;
-	
-	if (obj_control_gravity.room_gravity == 0) {
-		horizontal_decceleration = 0;
-	} else {
-		horizontal_decceleration = thrust_acceleration;
-	}
-}
+
 
 var is_key_left_pressed = keyboard_check(vk_left);
 var is_key_right_pressed = keyboard_check(vk_right);
