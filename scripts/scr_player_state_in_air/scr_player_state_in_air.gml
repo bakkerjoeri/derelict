@@ -6,10 +6,26 @@ if (scr_player_is_colliding(hazard_map)) {
 	exit;
 }
 
+var is_bottom_colliding = scr_player_is_bottom_colliding(collision_map, 1);
+var is_top_colliding = scr_player_is_top_colliding(collision_map, 1);
+
 // Check if the player is no longer in the air
 if (
-	(obj_control_gravity.room_gravity_direction == 1 && scr_player_is_bottom_colliding(collision_map, 1))
-	|| (obj_control_gravity.room_gravity_direction == -1 && scr_player_is_top_colliding(collision_map, 1))
+	(
+		obj_control_gravity.is_gravity_on &&
+		obj_control_gravity.room_gravity_direction == 1 &&
+		is_bottom_colliding
+	) || (
+		obj_control_gravity.is_gravity_on &&
+		obj_control_gravity.room_gravity_direction == -1 &&
+		is_top_colliding
+	) || (
+		!obj_control_gravity.is_gravity_on && (
+			is_bottom_colliding ||
+			is_top_colliding
+		)
+	)
+	
 ) {
 	state_switch("onGround");
 	exit;

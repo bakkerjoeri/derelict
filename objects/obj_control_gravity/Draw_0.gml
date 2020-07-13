@@ -1,9 +1,9 @@
-var direction_string = "down";
+var direction_string = "downward";
 
 if (!is_gravity_on) {
-	direction_string = "-";
+	direction_string = "???";
 } else if (room_gravity_direction < 0) {
-	direction_string = "up"
+	direction_string = "upward"
 }
 
 var room_center_x = camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0]) / 2);

@@ -1,0 +1,1 @@
+global.is_debugging = !global.is_debugging;
