@@ -13,7 +13,7 @@ var instructions1 = "Gravity: " + direction_string;
 var instructions1_width = string_width(instructions1);
 	
 var instructions2 = string(phase_time_left);
-var instructions2_width = string_width(instructions2);
+var instructions2_width = 16;
 	
 
 draw_set_alpha(0.8);
