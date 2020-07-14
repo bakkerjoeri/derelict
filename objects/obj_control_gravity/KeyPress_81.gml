@@ -1,4 +1,6 @@
-exit;
+if (!global.is_debugging) {
+	exit;
+}
 
 if (!has_unlocked_float_phase) {
 	has_unlocked_float_phase = true;
