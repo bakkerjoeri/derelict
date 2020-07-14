@@ -1,10 +1,6 @@
 scr_player_apply_velocity();
 scr_player_horizontal_move();
-
-if (scr_player_is_colliding(hazard_map)) {
-	state_switch("death");
-	exit;
-}
+scr_player_apply_velocity();
 
 // Check if the player is no longer in the air
 if (
