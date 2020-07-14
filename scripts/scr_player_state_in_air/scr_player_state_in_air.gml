@@ -1,6 +1,10 @@
 scr_player_apply_velocity();
 scr_player_horizontal_move();
-scr_player_apply_velocity();
+
+if (scr_player_is_colliding(hazard_map)) {
+	state_switch("death");
+	exit;
+}
 
 var is_bottom_colliding = scr_player_is_bottom_colliding(collision_map, 1);
 var is_top_colliding = scr_player_is_top_colliding(collision_map, 1);

@@ -1,4 +1,4 @@
-scr_room_gravity = gravity_strength * room_gravity_direction * is_gravity_on;
+room_gravity = gravity_strength * room_gravity_direction * is_gravity_on;
 
 if (has_unlocked_manual_gravity) {
 	if (keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_down)) {
